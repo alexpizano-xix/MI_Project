@@ -1,0 +1,68 @@
+body, html {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background: rgb(39,39,39);
+    background: linear-gradient(90deg, rgba(39,39,39,1) 0%, rgba(0,0,0,1) 100%);
+}
+  
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 8% !important;
+    margin-bottom: 10% !important;
+}
+
+h2{
+    text-align: center;
+}
+
+i{
+    margin-bottom: 5% !important;
+}
+
+.menuBtn{
+    display: block !important;
+    color: white;
+    margin-top: 5% !important;
+    width: 30% !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.menuBtn:hover{
+      background-color: white !important;
+      color: rgb(139, 43, 43) !important;
+      width: 30% !important;
+      display: block !important;
+      border: none !important;
+}
+
+#language{
+    width: 25% !important;
+    margin-top: 2% !important;
+}
+
+.confiLeft2{
+    background-color: white;
+    width: 5%;
+    height: 5%;
+    margin-left: 27% !important;
+    margin-right: 2%;
+    margin-top: 2%;
+    color: rgb(139, 43, 43);
+}
+
+.confiRight2{
+    background-color: white;
+    width: 5%;
+    height: 5%;
+    margin-left: 2%;
+    margin-top: 2%;
+    color: rgb(139, 43, 43);
+}
+
+#teamShow{
+    display: none;
+}
+  
+@media (max-width: 767.98px) { 
+}

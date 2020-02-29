@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Skull Cracker | Menu</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/styleMenu.css" />
+    <script
+      type="text/javascript"
+      src="/javascripts/jquery-3.4.1.min.js"
+    ></script>
+    <script type="text/javascript" src="/javascripts/menu.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm col-md-7" align="center">
+          <h1>Skull Cracker</h1>
+          <button class="btn btn-primary menuBtn" id="mainMode">
+            Main Mode
+          </button>
+          <button class="btn btn-primary menuBtn">Runner</button>
+          <button class="btn btn-primary menuBtn">Vs</button>
+          <button
+            class="btn btn-primary menuBtn"
+            data-toggle="modal"
+            data-target="#options"
+          >
+            Options</button
+          >>
+          <button
+            class="btn btn-primary menuBtn"
+            data-toggle="modal"
+            data-target="#highlight"
+          >
+            Highlights
+          </button>
+          <button class="btn btn-primary menuBtn" id="logout">Log Out</button>
+        </div>
+        <div class="col-sm col-md-5"></div>
+      </div>
+    </div>
+
+    <div id="options" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title">Options</h2>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body" align="center">
+            <h2>Audio</h2>
+            <button class="btn btn-primary confiLeft" id="leftAudio">
+              <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </button>
+            <i class="fa fa-square" id="square1" aria-hidden="true"></i>
+            <i class="fa fa-square" id="square2" aria-hidden="true"></i>
+            <i class="fa fa-square" id="square3" aria-hidden="true"></i>
+            <i class="fa fa-square" id="square4" aria-hidden="true"></i>
+            <i class="fa fa-square" id="square5" aria-hidden="true"></i>
+            <button class="btn btn-primary confiRight" id="rightAudio">
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </button>
+
+            <h2>Language</h2>
+            <button
+              type="button"
+              class="btn btn-primary dropdown-toggle"
+              id="language"
+              data-toggle="dropdown"
+            >
+              English
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#" id="secondLanguage">Spanish</a>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="highlight" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content" align="center">
+          <div class="modal-header">
+            <button class="btn btn-primary confiLeft2" id="leftHighlight">
+              <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </button>
+            <h2 class="modal-title" id="statusHighlight">
+              Main Mode Highlights
+            </h2>
+            <button class="btn btn-primary confiRight2" id="rightHighlight">
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </button>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <div id="soloShow">
+              <h3>Top 5</h3>
+              <h5>1.- player1------00:20:35</h5>
+              <h5>2.- player2------00:21:52</h5>
+              <h5>3.- player3------00:35:24</h5>
+              <h5>4.- player4------00:38:38</h5>
+              <h5>5.- player5------01:00:05</h5>
+            </div>
+            <div id="teamShow">
+              <h3>Top 5</h3>
+              <h5>1.- Team1------00:20:35</h5>
+              <h5>2.- Team2------00:21:52</h5>
+              <h5>3.- Team3------00:35:24</h5>
+              <h5>4.- Team4------00:38:38</h5>
+              <h5>5.- Team5------01:00:05</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

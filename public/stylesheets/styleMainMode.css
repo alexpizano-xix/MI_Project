@@ -1,0 +1,89 @@
+body, html {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background: rgb(39,39,39);
+    background: linear-gradient(90deg, rgba(39,39,39,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+#username{
+    position: absolute !important;
+    margin-top: 5% !important;
+    color: red;
+    margin-left: 1% !important;
+    font-size: 32px !important;
+}
+
+#timer{
+    position: absolute;
+    margin-top: 2%;
+    color: red;
+    margin-left: 45%;
+}
+
+.confiLeft2{
+    position: absolute;
+    margin-top: 10%;
+    width: 10%;
+    background-color: rgb(139, 43, 43);
+    color: white;
+    border: none;
+}
+.confiLeft2:hover{
+    background-color: rgb(139, 43, 43);
+    color: white;
+    border: none;
+    opacity: 0.7;
+}
+.confiLeft3{
+    position: absolute;
+    margin-top: 15%;
+    width: 10%;
+    background-color: rgb(139, 43, 43);
+    color: white;
+    border: none;
+}
+.confiLeft3:hover{
+    background-color: rgb(139, 43, 43);
+    color: white;
+    border: none;
+    opacity: 0.7;
+}
+.confiLeft4{
+    position: absolute;
+    margin-top: 20%;
+    width: 10%;
+    background-color: rgb(139, 43, 43);
+    color: white;
+    border: none;
+}
+.confiLeft4:hover{
+    background-color: rgb(139, 43, 43);
+    color: white;
+    border: none;
+    opacity: 0.7;
+}
+
+h3, h5{
+    text-align: center;
+    color: black;
+}
+
+.confiLeft{
+    background-color: white;
+    width: 5%;
+    height: 5%;
+    margin-left: 27% !important;
+    margin-right: 2%;
+    color: rgb(139, 43, 43);
+}
+
+.confiRight{
+    background-color: white;
+    width: 5%;
+    height: 5%;
+    margin-left: 2%;
+    color: rgb(139, 43, 43);
+}
+
+#teamShow{
+    display: none;
+}

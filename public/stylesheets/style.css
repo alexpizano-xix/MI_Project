@@ -1,0 +1,33 @@
+body, html {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: rgb(39,39,39);
+  background: linear-gradient(90deg, rgba(39,39,39,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+h1{
+  color: white;
+  text-align: center;
+}
+
+form{
+  margin-top: 10%;
+}
+
+input{
+  margin-top: 2% !important;
+  text-align: center;
+  width: 60% !important;
+}
+
+input[type=submit]{
+  width: 30% !important;
+}
+
+@media (max-width: 767.98px) { 
+  form{
+    margin-top: 50%;
+  }
+  input{
+    margin-top: 6% !important;
+  }
+}
